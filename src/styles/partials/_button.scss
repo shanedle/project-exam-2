@@ -1,0 +1,7 @@
+.btn-primary {
+    @include button-variant($indigo, $indigo-light, $indigo-dark, $indigo, $indigo, $indigo);
+}
+
+.btn-secondary {
+    @include button-variant($goldenrod, $goldenrod-light, $goldenrod-dark, $goldenrod, $goldenrod, $goldenrod);
+}
