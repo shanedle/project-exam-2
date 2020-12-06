@@ -1,0 +1,14 @@
+.navbar__body {
+  background-color: $white;
+
+  .navbar__brand{
+    color: $indigo;
+    &:hover {
+      color: $indigo;
+    }
+}
+.navbar__toggle {
+  border:none;
+}
+
+}

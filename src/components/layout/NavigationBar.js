@@ -9,11 +9,11 @@ import Logout from "../auth/Logout";
 function NavigationBar() {
     const { user } = useContext(AuthContext);
     return (
-        <Navbar bg="light" variant="light" expand="lg">
+        <Navbar className="navbar__body" variant="light" expand="lg">
             <NavLink to="/" exact>
                 <Navbar.Brand className="navbar__brand">Holidaze</Navbar.Brand>
             </NavLink>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle className="navbar__toggle" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <NavLink to="/" exact className="nav-link">Home</NavLink>
